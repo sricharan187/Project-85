@@ -55,7 +55,7 @@ function my_keydown(e){
 
 function up()
 {
-	if (greencar_y >= 10) {
+	if (greencar_y >= 80) {
 
         greencar_y -= 10;
         console.log ("When Up arrow is pressed , x = " + greencar_x + " y = " + greencar_y);
@@ -66,7 +66,7 @@ function up()
 
 function down()
 {
-	if (greencar_y <= 290) {
+	if (greencar_y <= 220) {
 
         greencar_y += 10;
         console.log ("When Down arrow is pressed , x = " + greencar_x + " y = " + greencar_y);
